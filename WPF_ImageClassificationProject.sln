@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ImageClassificationProject", "WPF_ImageClassificationProject.csproj", "{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageClassification", "..\ConsoleApp1\ImageClassification.csproj", "{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "..\ConsoleTest\ConsoleTest.csproj", "{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
