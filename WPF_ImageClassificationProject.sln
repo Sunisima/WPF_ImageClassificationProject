@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ImageClassificationProject", "WPF_ImageClassificationProject.csproj", "{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitModel_Console1", "..\FruitModel_Console1\FruitModel_Console1.csproj", "{527465D3-BD61-7491-49F9-F836BBFDA3B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0263C1C-DCEF-4A9E-B6C4-A7CC46BA1380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527465D3-BD61-7491-49F9-F836BBFDA3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527465D3-BD61-7491-49F9-F836BBFDA3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527465D3-BD61-7491-49F9-F836BBFDA3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527465D3-BD61-7491-49F9-F836BBFDA3B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
