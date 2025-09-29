@@ -7,7 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ImageClassificationProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageClassification", "..\ConsoleApp1\ImageClassification.csproj", "{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "..\ConsoleTest\ConsoleTest.csproj", "{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsForConsoleApp", "..\TestsForConsoleApp\TestsForConsoleApp.csproj", "{96AB3498-6642-4875-9414-B1EA8A868147}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980} = {75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +26,10 @@ Global
 		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B6A09C-0F0B-48EE-A6F1-C1D6FC477980}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6E11BB2-9DAB-4653-9B16-66D7D6594F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AB3498-6642-4875-9414-B1EA8A868147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AB3498-6642-4875-9414-B1EA8A868147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AB3498-6642-4875-9414-B1EA8A868147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AB3498-6642-4875-9414-B1EA8A868147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
